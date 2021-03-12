@@ -1,60 +1,36 @@
 body{
-    background-color: #000;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 600px;
+    padding: 20px;
+    background-color: #cfcfcf;
+}
+.boxOne{
+    padding: 10px;
+    background-color: green;
+    width: 300px;
+    height: 400px;
+    margin: 20px 150px;
+}
+.backgroundImg{
+    background-image: url("https://lh3.googleusercontent.com/proxy/2le1j1uQrLQ0EFP2RzvlBIk0bX229VMGR2yBXtuYpyDfh3vmBhXYDQwu2SyHyVaVJMYhcjR9usxYT18pvOrqat1ZN1CPW9KP8e8azW2sQZ5ceRa0t8aFAutbl2CVn--cfqE9q9fISCVKmPppPiS64qLBjKy8bXIk6nnOkl7EKw");
+    background-position: center;
+    background-size: cover;
     height: 100%;
-    text-align: center;
-    font-size: 18px;
+    position: relative;
 }
-.wrapper{
+#head{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 185px;
+    top:150px;
+}
+#head img{
     width: 100%;
-    margin: 0 auto;
-
-}
-.wrapper:after{
-    content: '';
-    display: table;
-    clear: both;
-}
-canvas{
-    color: #fff;
-    border: #fff dashed 2px;
-    padding: 15px;
-}
-h1{
-    font-weight: 100;
-    margin: 5px 0;
-    text-transform: uppercase;
-}
-#alphabet{
-    margin: 15px auto;
-    padding: 0;
-    max-width: 900px;
-}
-#alphabet{
-    content: '';
-    display: table;
-    clear: both;
-
-}
-#alphabet li{
-    float: left;
-    margin: 0 10px 10px 0;
-    list-style: none;
-    width: 35px;
-    height: 30px;
-    padding-top: 10px;
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-    cursor: pointer;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border: solid 1px #fff;
-}
-#alphabet li:hover{
-    background-color: #f8d202;
-    border: 1px solid #fff;
-    color: #fff;
+    height: 100%;
+    border-radius: 50%;
 
 }
